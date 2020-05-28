@@ -23,7 +23,7 @@ Jquery UI 1.10
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/css/jquery-ui.css" />
 
-    <script src="./src/jquery.fbStories.js"></script>
+    <script src="./src/jquery.fbStories.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./src/jquery.fbStories.css" />
     
     <script>
