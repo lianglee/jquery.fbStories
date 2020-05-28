@@ -50,3 +50,29 @@ dataurl | URL for JSON data. | json.php |
 showAdd | A button to add status, button class name is: .fbstories-item-add |  | 
 addText | Button text | &#43;|
 onShow  | A callback when image item is displayed in slideshow | function($image_id, $image_url){} |
+
+# JSON SAMPLE
+
+    [
+        {
+            "owner": {
+                "fullname": "Dummmy Name 1",
+                "guid": 1,
+                "item_guid": 5,
+                "icon": "https:\/\/i.picsum.photos\/id\/5\/400\/300.jpg"
+            },
+            "files": [
+                {
+                    "viewed": false, //if the image is viewed true , then the border will be changed to grey with user icon
+                    "title": "File 1",
+                    "guid": 2,
+                    "time": "28\/20\/05 08:05",
+                    "url": "https:\/\/i.picsum.photos\/id\/2\/1000\/900.jpg"
+                },
+             ...
+             ...
+           ]
+        }
+     ...
+     ...
+    ]
