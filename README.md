@@ -1,4 +1,4 @@
-# jquery.fbStories
+# jquery.fbStories 1.0
 
 A UI similar to facebook stories.  
 This is just a UI, the data is supplied to fbstories from JSON file (can be direct URL)
