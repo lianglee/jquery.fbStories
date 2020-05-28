@@ -15,6 +15,10 @@ Copyright (C) 2014-2020 OPEN SOURCE SOCIAL NETWORK https://www.opensource-social
 The navigation buttons to switch between previews will not be visible if total previews are less than `page_limit`
 See the JSON file for JSON format.
 
+# Live Demo
+
+https://www.arsalanshah.com/jquery.fbStories/index.html
+
 # Usage and Requirments
 Jquery 1.12.4
 Jquery UI 1.10 
