@@ -1,6 +1,6 @@
 # jquery.fbStories 1.0
 
-A UI similar to facebook stories.  
+A jquery plugin for creating UI similar to facebook stories .  
 This is just a UI, the data is supplied to fbstories from JSON file (can be direct URL)
 
 Licensed under the Open Source Social Network License (4.0) (Cryptographic Autonomy License version 1.0)
