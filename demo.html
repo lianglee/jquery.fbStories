@@ -1,0 +1,36 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Facebook Style Stories</title></head>
+<body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/css/jquery-ui.css" />
+
+<script src="./src/jquery.fbStories.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./src/jquery.fbStories.css" />
+<style>
+	body {
+		background: #eee;	
+	}
+</style>
+<script>
+$(document).ready(function() {
+	$page_limit = 5;
+	if($(window).width() < 480){
+		$page_limit = 2;
+	}
+	$('.container-status').fbStories({
+		delay: 3,
+		page_limit:$page_limit,
+		dataurl: 'stories.json',
+		onShow: function(guid, url){
+				console.log(guid + ' ' + url);
+		},
+		showAdd: true,
+	});
+});
+</script>
+<div class="container-status" id="container-status"></div>
+</body>
+</html>
